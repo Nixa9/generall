@@ -1,0 +1,38 @@
+/*================ TYPOGRAPHY ================*/
+
+h1 {
+  font-family: {{ setting.primary-font.family }};
+  font-size: {{ settings.h1-size }};
+  font-weight: {{ settings.primary-font.weight }};
+  font-style: {{ settings.primary-font.style }};
+}
+
+h2 {
+  font-family: {{ setting.primary-font.family }};
+  font-size: {{ settings.h2-size }};
+}
+
+h3 {
+  font-family: {{ setting.primary-font.family }};
+  font-size: {{ settings.h3-size }};
+}
+
+h4 {
+  font-family: {{ setting.primary-font.family }};
+  font-size: {{ settings.h4-size }};
+}
+
+h5 {
+  font-family: {{ setting.primary-font.family }};
+  font-size: {{ settings.h5-size }};
+}
+
+h6 {
+  font-family: {{ setting.primary-font.family }};
+  font-size: {{ settings.h6-size }};
+}
+
+p {
+  font-family: {{ setting.primary-font.family }};
+  font-size: {{ settings.p-size }};
+}
